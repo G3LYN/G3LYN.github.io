@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeffrey's Sneakers</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-bottom: 60px;
+            background-image: url('OBSKFK0.jpg'); /* Remplacez 'OBSKFK0.jpg' par le chemin correct de votre image */
+            background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le body */
+            background-position: center; /* Centre l'image */
+            background-repeat: no-repeat; /* Évite la répétition de l'image */
+            color: #000000;
+            
+        }
+        .intro-text, .text-center, .card-title, h1, h2, h3, p, a {
+    color: #000000; /* Noir */
+}
+
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .whatsapp-btn img {
+            width: 60px; 
+            height: auto; 
+        }
+        
+        .intro-text {
+            opacity: 0;
+            animation: fadeIn 2s forwards; /* Animation de fondu en 2 secondes */
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barre de navigation Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">JEFFREY'S SNEAKERS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#catalogue">Catalogue</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="intro-text">Bienvenue chez Jeffrey's Sneakers</h1>
+                <p class="lead intro-text">Découvrez le style, la qualité et l'élégance à chaque pas.</p>
+                <p class="intro-text">Nous sommes ravis de vous accueillir dans notre univers de mode, où chaque paire de chaussures et chaque vêtement racontent une histoire unique. Chez Jeffrey's Sneakers, nous croyons en l'alliance parfaite entre confort et style, entre tendance et intemporalité.</p>
+                <p class="intro-text">Explorez notre collection soigneusement sélectionnée pour trouver la pièce qui vous fera vous démarquer. Des chaussures élégantes aux vêtements tendance, nous avons ce qu'il vous faut pour compléter votre garde-robe avec une touche de sophistication.</p>
+                <p class="intro-text">Que l'article que vous cherchez, que ça soit des chaussures ou des lacostes, soit dans notre catalogue ou pas n'hésitez surtout pas à nous contacter et vous serez servir.</p>
+                <a href="#catalogue" class="btn btn-primary btn-lg intro-text">Découvrez notre collection</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="catalogue" class="container mt-5">
+        <!-- Section Catalogue -->
+        <h2 class="text-center mb-4">NOTRE CATALOGUE</h2>
+        <center><h2>Chaussures</h2></center>
+        <div class="row">
+            <!-- Catégorie Chaussures -->
+            <div class="col-md-4 mb-4">
+                
+                <h6 class="text-center">Air Force Nike</h6>
+                <div class="card">
+                    <img src="IMG-20231015-WA0013.jpg" class="card-img-top" alt="Chaussure 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Custom air force 1</h5>
+                        
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="IMG-20231015-WA0015.jpg" class="card-img-top" alt="Chaussure 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Custom air force 1</h5>
+                        
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="IMG-20231015-WA0016.jpg" class="card-img-top" alt="Chaussure 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Custom Nike air force 1</h5>
+                        
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="WhatsApp Image 2023-11-03 at 12.17.09 PM.jpeg" class="card-img-top" alt="Chaussure 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike air force 1</h5>
+                        
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                
+                <h6 class="text-center">Jordan</h6>
+                <div class="card">
+                    <img src="WhatsApp Image 2023-11-03 at 12.17.10 PM.jpeg" class="card-img-top" alt="Chaussure 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike air Jordan 4</h5>
+                        
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="WhatsApp Image 2023-11-03 at 12.16.26 PM.jpeg" class="card-img-top" alt="Chaussure 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike air Jordan 4 Retro</h5>
+                        
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="WhatsApp Image 2023-11-03 at 12.17.10 PM.jpeg" class="card-img-top" alt="Chaussure 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike air Jordan 4</h5>
+                        
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="WhatsApp Image 2023-11-03 at 12.54.10 PM.jpeg" class="card-img-top" alt="Chaussure 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike air jordan 5</h5>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-4 mb-4">
+                
+                <h6 class="text-center">Chaussures habillées</h6>
+                <div class="card">
+                    <img src="WhatsApp Image 2023-11-03 at 4.34.01 PM.jpeg" class="card-img-top" alt="Chaussure 9">
+                    <div class="card-body">
+                        <h5 class="card-title">BERWICK 1707</h5>
+                        
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="WhatsApp Image 2023-11-03 at 4.34.02 PM (1).jpeg" class="card-img-top" alt="Chaussure 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Chaussures en cuir Brogue</h5>
+                        
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="WhatsApp Image 2023-11-03 at 4.34.02 PM.jpeg" class="card-img-top" alt="Chaussure 11">
+                    <div class="card-body">
+                        <h5 class="card-title">KENT-Mocassins</h5>
+                        
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="WhatsApp Image 2023-11-03 at 4.34.03 PM.jpeg" class="card-img-top" alt="Chaussure 12">
+                    <div class="card-body">
+                        <h5 class="card-title">Chelsea botte</h5>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+            <h1></h1>
+    </div>
+    <center><h2>Lacoste</h2></center>
+    <div class="row">
+        
+        
+        <div class="col-md-4 mb-4">
+            
+            
+            <div class="card">
+                <img src="WhatsApp Image 2023-11-21 at 4.53.58 PM.jpeg" class="card-img-top" alt="Lacoste 1">
+                <div class="card-body">
+                    <h5 class="card-title">Lacoste 1</h5>
+                    
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            
+            
+            <div class="card">
+                <img src="WhatsApp Image 2023-11-21 at 4.53.58 PM (1).jpeg" class="card-img-top" alt="Lacoste 2">
+                <div class="card-body">
+                    <h5 class="card-title">Lacoste 2</h5>
+                    
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            
+            
+            <div class="card">
+                <img src="WhatsApp Image 2023-11-21 at 4.53.56 PM.jpeg" class="card-img-top" alt="Lacoste 3">
+                <div class="card-body">
+                    <h5 class="card-title">Lacoste 3</h5>
+                    
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            
+            
+            <div class="card">
+                <img src=" WhatsApp Image 2023-11-21 at 4.53.56 PM.jpeg" class="card-img-top" alt="Lacoste 4">
+                <div class="card-body">
+                    <h5 class="card-title">Lacoste 4</h5>
+                    
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            
+            
+            <div class="card">
+                <img src="WhatsApp Image 2023-11-21 at 4.53.56 PM.jpeg" class="card-img-top" alt="Lacoste 5">
+                <div class="card-body">
+                    <h5 class="card-title">Lacoste 5</h5>
+                    
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            
+            
+            <div class="card">
+                <img src="WhatsApp Image 2023-11-21 at 4.53.57 PM.jpeg" class="card-img-top" alt="Lacoste 6">
+                <div class="card-body">
+                    <h5 class="card-title">Lacoste 6</h5>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="container mt-5">
+        <!-- Section Contact -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Contactez-nous</h2>
+                <p>Pour toute question ou demande,peu importe la chaussure dont vous avez besoin  n'hésitez pas à nous contacter :</p>
+                <p>Email : jeffreysneakers@gmail.com</p>
+                <p>Téléphone : +229 61 39 17 32</p>
+                <p>Cliquez le bouton vert pour vous rediriger vers notre whatsapp.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <a href="https://wa.me/+22961391732" class="whatsapp-btn" target="_blank">
+        <img src="whatsapp-icon-transparent-free-png.jpg" alt="WhatsApp">
+    </a>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            animateText('intro-text');
+        });
+
+        function animateText(className) {
+            var textElements = document.getElementsByClassName(className);
+
+            Array.from(textElements).forEach(function(element) {
+                var words = element.innerText.split(' ');
+                element.innerHTML = ''; // Clear existing text
+
+                words.forEach(function(word, index) {
+                    var span = document.createElement('span');
+                    span.textContent = word + ' ';
+
+                    span.style.opacity = '0';
+                    span.style.animation = 'fadeIn 2s forwards ' + (index * 0.5) + 's';
+
+                    element.appendChild(span);
+                });
+            });
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
